@@ -29,7 +29,7 @@
 
 <body>
   <script src="./prj.js"></script>
-
+  <button onclick="scrollToTop()" id="scrollToTopButton" style="font-size: 30px"><i class="fa-solid fa-arrow-up"></i></button>
   <div class="header" id="#home">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -67,9 +67,9 @@
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
-        </div>
-        <div class="user">
-          <a href="./login.html"><i class="fa-solid fa-user" style="font-size: 29px;"></i></i></a>
+          <div class="user">
+            <a href="./login.html"><i class="fa-solid fa-user" style="font-size: 29px;"></i></i></a>
+          </div>
         </div>
       </div>
     </nav>
@@ -170,6 +170,7 @@
         <p>Location: Malibu, California</p>
         <p>Price per night: $150</p>
         <p>Address: 123 Ocean Avenue</p>
+        <button class="Find" style="color: aliceblue;"><a href="#"></a>Learn more</button>
         <div class="rating">
           <span class="stars">4.5</span>
           <span class="reviews">(25 reviews)</span>
@@ -181,6 +182,7 @@
         <p>Location: Ibiza, Spain</p>
         <p>Price per night: $500</p>
         <p>Address: 456 Sunset Boulevard</p>
+        <button class="Find" style="color: aliceblue;"><a href="#"></a>Learn more</button>
         <div class="rating">
           <span class="stars">5.0</span>
           <span class="reviews">(50 reviews)</span>
@@ -192,6 +194,7 @@
         <p>Location: Cotswolds, United Kingdom</p>
         <p>Price per night: $200</p>
         <p>Address: 789 Meadow Lane</p>
+        <button class="Find" style="color: aliceblue;"><a href="#"></a>Learn more</button>
         <div class="rating">
           <span class="stars">4.0</span>
           <span class="reviews">(15 reviews)</span>
@@ -203,6 +206,7 @@
         <p>Location: New York City, USA</p>
         <p>Price per night: $300</p>
         <p>Address: 321 Central Park West</p>
+        <button class="Find" style="color: aliceblue;"><a href="#"></a>Learn more</button>
         <div class="rating">
           <span class="stars">4.8</span>
           <span class="reviews">(35 reviews)</span>
@@ -210,28 +214,42 @@
       </div>
     </div>
   </section>
-
+ <br>
   <footer class="site-footer">
-    <div class="footer-content">
-      <div class="logo">
-        <img src="booking-logo.png" alt="Logo">
-      </div>
-      <div class="footer-links">
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Customer Service</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3 class="footer-heading">About</h3>
+        <ul class="footer-links">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Advertise</a></li>
           <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Cookie Policy</a></li>
         </ul>
       </div>
+      <div class="footer-column">
+        <h3 class="footer-heading">Sections</h3>
+        <ul class="footer-links">
+          <li><a href="#">World</a></li>
+          <li><a href="#">Politics</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Technology</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-heading">Follow us</h3>
+        <ul class="social-media-links">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>
+  
     </div>
-    <div class="copy-right">
-      <p>&copy; 2024 Booking.com. All rights reserved.</p>
+    <div class="footer-bottom">
+      <p>&copy; 2024 inf. All rights reserved.</p>
     </div>
   </footer>
-
 
 
 </body>

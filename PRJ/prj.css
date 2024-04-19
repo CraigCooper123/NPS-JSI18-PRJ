@@ -123,7 +123,7 @@ html{
 	text-decoration: none;
 	font-size: 14px;
 	text-align: center;
-	transition: background-color 0.3s ease;
+	/* transition: background-color 0.3s ease; */
 	background-color: #007bff;
   	border: none;
 }
@@ -331,26 +331,33 @@ html{
 	margin-top: 20px;
 	padding: 10px 0;
   }
-#scrollToTopButton {
-	display: none;
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	z-index: 99;
-	font-size: 16px;
-	border: none;
-	outline: none;
-	background-color: #ff0000;
-	color: #fff;
-	cursor: pointer;
-	padding: 15px;
-	border-radius: 4px;
-	width: 70px;
-  }
-  
-#scrollToTopButton:hover {
-	background-color: #333;
-  }
+#back-to-top-btn {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#back-to-top-btn:hover {
+    background-color: #0056b3;
+}
 #navbarSupportedContent{
 	justify-content: space-between
+}
+.footer-links{
+	display: flex;
+	flex-direction: column;
+}
+button:hover{
+	transform: scale(1.1);
+	transition: transform 0.2s ease-in-out;
 }
